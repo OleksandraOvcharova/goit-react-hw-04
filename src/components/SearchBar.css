@@ -1,0 +1,41 @@
+.header {
+  background-color: #f9f9f9;
+  padding: 4px 0;
+}
+.search-form {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 8px 12px;
+  background-color: canvas;
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.search-form:focus-within {
+  outline: 1px solid blue;
+}
+
+.search-input {
+  flex-grow: 2;
+  border: none;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.search-button {
+  background: canvas;
+  border-radius: 0%;
+}
+
+.search-button:hover,
+.search-button:active,
+.search-button:focus,
+.search-button:focus-visible {
+  outline: none;
+  border-color: transparent;
+}

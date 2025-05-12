@@ -1,0 +1,11 @@
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.gallery-item {
+  width: calc(100% / 4 - 3 * 8px);
+  height: 200px;
+  overflow: hidden;
+}
